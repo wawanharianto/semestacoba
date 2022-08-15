@@ -1,0 +1,91 @@
+.container_pesona {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.konten_pesona h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.konten_pesona img {
+  width: 1200px;
+}
+
+.konten_pesona .galery_pesona {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.konten_pesona .galery_pesona .img_konten {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.konten_pesona .galery_pesona .img_konten img {
+  width: 300px;
+  margin: 5px 5px;
+}
+
+.container_pesona .service_pesona {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container_pesona .service_pesona .hero {
+  max-width: 700px;
+}
+.container_pesona .service_pesona .hero img {
+  width: 100%;
+}
+.konten_text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.konten_text .wrap {
+  display: flex;
+  width: 250px;
+}
+.konten_text .side {
+  margin: 0 10px;
+}
+.konten_text .wrap * {
+  margin: 2px 5px;
+}
+.konten_text .wrap p {
+  font-size: 12px;
+}
+
+.konten_pesona .tableunit {
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 30px auto;
+}
+.konten_pesona .tableunit img {
+  border-radius: 40px;
+}
+.konten_pesona .konten_kavling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.konten_pesona .konten_kavling h4 {
+  font-size: 24px;
+  margin: 20px 0;
+}
